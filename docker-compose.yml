@@ -22,11 +22,11 @@ services:
       # see https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
       discovery.type: single-node
     networks:
-      - elk
-	  
+       - elk
+
 networks:
     elk:
-    driver: bridge
-	
+      driver: bridge
+
 volumes:
-  elasticsearch:
+    elasticsearch:
